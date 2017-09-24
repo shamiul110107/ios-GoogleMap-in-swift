@@ -64,12 +64,11 @@ If you are also using the Places API, add your key again as shown here:
 ![Screenshot](screenShot.png)
 
 ##### Now, add or update a few methods inside your app's default ViewController.swift to create and initialize an instance of GMSMapView
-
-let camera = GMSCameraPosition.camera(withLatitude: 23.7740, longitude: 90.3664, zoom: 6.0) // point the initial location of map
-    mapView.camera = camera
-    mapView.delegate = self
-    mapView.isMyLocationEnabled = true
-    mapView.settings.myLocationButton = true
+       let camera = GMSCameraPosition.camera(withLatitude: 23.7740, longitude: 90.3664, zoom: 6.0) // point the initial location of map
+       mapView.camera = camera
+       mapView.delegate = self
+       mapView.isMyLocationEnabled = true
+       mapView.settings.myLocationButton = true
 ##### To Draw Marker use the following code
      let marker = GMSMarker()
       marker.position = CLLocationCoordinate2D(latitude: lat, longitude: long)
@@ -77,3 +76,5 @@ let camera = GMSCameraPosition.camera(withLatitude: 23.7740, longitude: 90.3664,
       marker.snippet = "GoogleMap"
       marker.map = mapView
       
+##### Run and see the output like this...
+![Screenshot](screenShotMap1.PNG) ![Screenshot](screenShotMap2.PNG)
