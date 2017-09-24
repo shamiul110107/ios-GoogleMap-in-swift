@@ -61,3 +61,19 @@ If you are also using the Places API, add your key again as shown here:
 #### Add a Map to your project
 1. Open Your project `ViewController` and Drag a UIView and Go the `Identity Inspector` and set class to `GMSMapView` and Create an `Outlet` in your `ViewController.swift` file
 
+![Screenshot](screenShot.png)
+
+##### Now, add or update a few methods inside your app's default ViewController.swift to create and initialize an instance of GMSMapView
+
+let camera = GMSCameraPosition.camera(withLatitude: 23.7740, longitude: 90.3664, zoom: 6.0) // point the initial location of map
+    mapView.camera = camera
+    mapView.delegate = self
+    mapView.isMyLocationEnabled = true
+    mapView.settings.myLocationButton = true
+##### To Draw Marker use the following code
+     let marker = GMSMarker()
+      marker.position = CLLocationCoordinate2D(latitude: lat, longitude: long)
+      marker.title = “This is title”
+      marker.snippet = "GoogleMap"
+      marker.map = mapView
+      
