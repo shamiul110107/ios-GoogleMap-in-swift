@@ -3,7 +3,7 @@ Use Google Map Api to draw Marker and Path
 
 To implement Google Map in iOS Project We have to Add Several components in our project and follow couple of steps.
 
-1. Get the latest version of Xcode
+1. [Get the latest version of Xcode](https://www.google.com)
 2. Install the Google Map SDK
 3. You can install using both Cocoapods and Manually
 First we go through using Cocoapods
