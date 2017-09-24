@@ -36,7 +36,7 @@ Now follow this couple of steps
 
 If you want to use google map in your iOS application the you must have to create an `API` key from Google API Console.
 
-####To create API key you have to follow some steps
+### To create API key you have to follow some steps
 
 1. Go to the [Google API Console](https://console.developers.google.com/flows/enableapi?apiid=maps_ios_backend&reusekey=true&pli=1).
 2. Create or select a project.
@@ -48,11 +48,16 @@ If you want to use google map in your iOS application the you must have to creat
 8. Click Save.
 9. Your new iOS-restricted API key appears in the list of API keys for your project. An API key is a string of characters, something like this:  `AIzaSyBdVl-cTICSwYKrZ95SuvNw7dbMuDt1KG0`
 
-Add the API Key to your Application
+#### Add the API Key to your Application
 * Add API key to your `AppDelegate.swift` file and import GoogleMaps
 * Add the following import statement:
 `import GoogleMaps`
+
 Add the following to your application`(_:didFinishLaunchingWithOptions:)` method, replacing `YOUR_API_KEY` with your API key:
 `GMSServices.provideAPIKey("YOUR_API_KEY")`
 If you are also using the Places API, add your key again as shown here:
 `GMSPlacesClient.provideAPIKey("YOUR_API_KEY")`
+
+#### Add a Map to your project
+1. Open Your project `ViewController` and Drag a UIView and Go the `Identity Inspector` and set class to `GMSMapView` and Create an `Outlet` in your `ViewController.swift` file
+
