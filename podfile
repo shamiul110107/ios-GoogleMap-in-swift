@@ -7,5 +7,6 @@ target ‘GoogleMap’ do
   pod 'GooglePlaces'
   pod 'GooglePlacesAPI'
   pod 'SwiftyJSON'
+  pod 'ObjectMapper', '~> 3.3.0'
   pod 'Alamofire', '~> 4.2.0'
 end

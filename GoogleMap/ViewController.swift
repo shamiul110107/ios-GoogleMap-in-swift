@@ -111,7 +111,7 @@ class ViewController: UIViewController, GMSMapViewDelegate, CLLocationManagerDel
         origin = "\(lat),\(long)"
         Alamofire.request(url).responseJSON { response in
             
-            let json = JSON(data: response.data!)
+            let json = try!  JSON(data: response.data!)
             let routes = json["routes"].arrayValue
             
             for route in routes
