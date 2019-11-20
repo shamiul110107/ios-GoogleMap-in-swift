@@ -1,4 +1,4 @@
-# ios-GoogleMap-in-swift-3.0
+# ios-GoogleMap-in-swift
 Use Google Map Api to draw Marker and Path
 
 ### To implement Google Map in iOS Project We have to Add Several components in our project and follow couple of steps.
