@@ -1,0 +1,6 @@
+osx_image: xcode11.3
+language: swift
+os: osx
+xcode_project: GoogleMap.xcworkspace
+xcode_scheme: GoogleMap
+xcode_destination: platform=iOS Simulator,OS=10.14,name=iPhone 8

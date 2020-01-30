@@ -20,6 +20,7 @@
 		965BF2FD1ED3F77500349B91 /* GoogleMapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965BF2FC1ED3F77500349B91 /* GoogleMapTests.swift */; };
 		965BF3081ED3F77500349B91 /* GoogleMapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965BF3071ED3F77500349B91 /* GoogleMapUITests.swift */; };
 		965BF3161ED42B2900349B91 /* stations.plist in Resources */ = {isa = PBXBuildFile; fileRef = 965BF3151ED42B2900349B91 /* stations.plist */; };
+		CE6830F323E2CDAD00F6263F /* Converter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6830F223E2CDAD00F6263F /* Converter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,7 @@
 		965BF3071ED3F77500349B91 /* GoogleMapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleMapUITests.swift; sourceTree = "<group>"; };
 		965BF3091ED3F77500349B91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		965BF3151ED42B2900349B91 /* stations.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = stations.plist; sourceTree = "<group>"; };
+		CE6830F223E2CDAD00F6263F /* Converter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Converter.swift; sourceTree = "<group>"; };
 		D0043F4568124F441FD413FF /* Pods_GoogleMap.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoogleMap.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -120,6 +122,7 @@
 			children = (
 				965BF2E71ED3F77500349B91 /* AppDelegate.swift */,
 				965BF2E91ED3F77500349B91 /* ViewController.swift */,
+				CE6830F223E2CDAD00F6263F /* Converter.swift */,
 				965BF2EB1ED3F77500349B91 /* Main.storyboard */,
 				965BF2EE1ED3F77500349B91 /* Assets.xcassets */,
 				965BF2F01ED3F77500349B91 /* LaunchScreen.storyboard */,
@@ -374,6 +377,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				965BF2EA1ED3F77500349B91 /* ViewController.swift in Sources */,
+				CE6830F323E2CDAD00F6263F /* Converter.swift in Sources */,
 				965BF2E81ED3F77500349B91 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
